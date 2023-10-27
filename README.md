@@ -39,9 +39,6 @@ acd deploy --variant prod --check-health --timeout 15
 ## 4. Verify release
 Check [Dashboards](https://service.sumologic.com/ui/#/library/folder/28283158)
 
-[acd-dev]: https://argocd.dev.cloudservices.acquia.io/applications/kaas-external-secrets-dev
-[acd-staging]: https://argocd.cloudservices.acquia.io/applications/kaas-external-secrets-staging
-[acd-prod]: https://argocd.cloudservices.acquia.io/applications/kaas-external-secrets-prod
 
 Make sure external-secrets, external-secrets-cert-controller, external-secrets-webhook pods are running
 ```sh
